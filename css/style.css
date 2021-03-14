@@ -1,0 +1,140 @@
+/************ Selectores avanzados **********/
+/******** Selector descendiente ************/
+
+*{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+:root {
+  --primary: hsl(0, 59%, 41%);
+  --secondary: rgb(0, 128, 0);
+  --third: hsl(240, 100%, 50%);
+  --fourth: rgb(250, 182, 55);
+  --fifth: rgb(187, 226, 242);
+  --sixth: rgba(191, 47, 3, 0.981);
+}
+/**************Header y footer**************/
+header, footer {
+  background-color: var(--fourth);
+  color: var(--sixth);
+  padding: 1rem;
+  text-align: center;
+}
+/*******Main********/
+main {
+  width: 90%;
+  margin: 2rem auto;
+}
+/* Selección de varios selectores a la vez */
+h1, h2, h3 {
+  font-size: 40px;
+}
+
+h1, h2, h3, h4, p {
+  text-align: center;
+  padding: 1rem 0rem;
+}
+
+h2 {
+  background-color: var(--fifth);
+  color: var(--sixth);
+  padding: 1rem 3rem;
+}
+h3, h4 {
+  color: var(--secondary);
+}
+
+/****** Section Receta*****/
+#receta img {
+  width: 80%;
+  margin: 1rem 10%;
+  border-radius: 1rem;
+}
+
+
+/* Selección de hijos */
+article#contenedor1 > ol {
+  border: 4px solid var(--fourth);
+  width: 70%;
+  padding: 2rem; 
+  margin: 2% 15%;
+  border-radius: 1.25rem;
+}
+
+article#contenedor1 > ol > li {
+  line-height: 32px;
+}
+/* Selector descendiente */
+ul li {
+  list-style: none;
+  text-align: center;
+  line-height: 32px;
+}
+
+/* Selector adyacente */
+div+p {
+  color: var(--primary);
+  font-weight: bold;
+}
+
+/* Selector de atributos */
+a[href="https://recetas.lanacion.com.ar/recetas/"]{
+  color: var(--secondary);
+}
+
+/* Selector universal junto a selector descendiente */
+ol * {
+  color: var(--third);
+}
+
+
+/******** Pseudo-selectores *************/
+/* Hover */
+h1:hover {
+  color: var(--fifth);
+  font-size: 60px;
+}
+
+/********* Formulario******/
+
+fieldset {
+  border: 0.25rem solid var(--fourth);
+  border-radius: 2rem;
+  width: 50%;
+  margin: 2% auto;
+}
+#form>p {
+  color: var(--secondary);
+  font-weight: 600;
+}
+
+label, input {
+  margin: 0.75rem auto;
+  width: 25rem;
+  line-height: 2rem;
+}
+
+label, input {
+  display: block;
+  margin: 1rem;
+}
+
+
+.boton {
+  margin-top: 2rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  width: 8rem;
+}
+/* Active */
+.boton:active {
+  background-color:var(--secondary);
+  border: 1px solid var(--sixth);
+} 
+
+/* Focus */
+input:focus {
+  border: 2px solid var(--sixth);
+} 
