@@ -14,6 +14,9 @@ This Project only has one master branch, it was a small project so it did not ne
 
 **HTML5** and **CSS3**
 
+## You can take a look here: 
+https://eugenia1984.github.io/Cooking-recepie---FS/.
+
 ## Please: 🎁
 
 * Share this proyect with others 📢
@@ -23,7 +26,7 @@ This Project only has one master branch, it was a small project so it did not ne
 ---
 ## Notes
 I appreciate your interest in this Project <br/>
-⌨️ with ❤️ by [María Eugenia Costa](https://github.com/eugenia1984) 😊 and follow me at [LinkedIn]( http://www.linkedin.com/in/maríaeugeniacosta) 
+⌨️ with ❤️ by [María Eugenia Costa](https://github.com/eugenia1984) 😊 and follow me at [LinkedIn](http://www.linkedin.com/in/maríaeugeniacosta) 
 
 ---
 
@@ -42,6 +45,9 @@ Este Proyecto solo tiene una sucursal maestra, era un proyecto pequeño por lo q
 ## Tecnologías aplicadas 🛠️
 
 **HTML5** y **CSS3**
+
+## Podés verlo acá: 
+https://eugenia1984.github.io/Cooking-recepie---FS/.
 
 ## Por favor: 🎁
 * Comparte este proyecto con otros 📢
